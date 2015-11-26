@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="HuiMaionecell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="159.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vFA-a1-WgX" userLabel="bgView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="159.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aea-4X-dFN">
+                                <rect key="frame" x="151" y="81" width="170" height="75"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="客户请留步，有好货" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkF-l1-Zd8">
+                                        <rect key="frame" x="4" y="46" width="109" height="21"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heradimage.png" translatesAutoresizingMaskIntoConstraints="NO" id="6hR-Fh-jFR">
+                                        <rect key="frame" x="113" y="0.0" width="57" height="75"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="品牌街" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4i-RN-kfZ">
+                                        <rect key="frame" x="29" y="8" width="57" height="21"/>
+                                        <color key="backgroundColor" red="1" green="0.29873292150000003" blue="0.17814676400000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="kkF-l1-Zd8" firstAttribute="top" secondItem="H4i-RN-kfZ" secondAttribute="bottom" constant="17" id="LZG-Fs-Ohb"/>
+                                    <constraint firstItem="H4i-RN-kfZ" firstAttribute="top" secondItem="Aea-4X-dFN" secondAttribute="top" constant="8" id="Lg6-hl-QQq"/>
+                                    <constraint firstItem="kkF-l1-Zd8" firstAttribute="leading" secondItem="Aea-4X-dFN" secondAttribute="leading" constant="4" id="MVp-jh-dOV"/>
+                                    <constraint firstItem="H4i-RN-kfZ" firstAttribute="leading" secondItem="Aea-4X-dFN" secondAttribute="leading" constant="29" id="Nrm-KK-8Lt"/>
+                                    <constraint firstAttribute="bottom" secondItem="kkF-l1-Zd8" secondAttribute="bottom" constant="8" id="SxZ-hm-w46"/>
+                                    <constraint firstAttribute="bottom" secondItem="6hR-Fh-jFR" secondAttribute="bottom" id="VoS-m3-vkz"/>
+                                    <constraint firstAttribute="trailing" secondItem="kkF-l1-Zd8" secondAttribute="trailing" constant="57" id="XIX-Qg-slt"/>
+                                    <constraint firstAttribute="bottom" secondItem="H4i-RN-kfZ" secondAttribute="bottom" constant="46" id="XPp-Ww-YCi"/>
+                                    <constraint firstAttribute="trailing" secondItem="6hR-Fh-jFR" secondAttribute="trailing" id="gvn-f0-hvo"/>
+                                    <constraint firstItem="6hR-Fh-jFR" firstAttribute="top" secondItem="Aea-4X-dFN" secondAttribute="top" id="iRJ-fc-vgt"/>
+                                    <constraint firstItem="6hR-Fh-jFR" firstAttribute="leading" secondItem="kkF-l1-Zd8" secondAttribute="trailing" id="rKM-Yg-dII"/>
+                                    <constraint firstAttribute="trailing" secondItem="H4i-RN-kfZ" secondAttribute="trailing" constant="84" id="yAR-Se-tdO"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IMb-UZ-Ndy" userLabel="rightView1">
+                                <rect key="frame" x="151" y="5" width="169" height="75"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="闹市区" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJU-04-QE5">
+                                        <rect key="frame" x="28" y="13" width="57" height="21"/>
+                                        <color key="backgroundColor" red="1" green="0.29873292150000003" blue="0.17814676400000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="买多少送多少" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSn-xf-mHp">
+                                        <rect key="frame" x="16" y="42" width="84" height="21"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heradimage.png" translatesAutoresizingMaskIntoConstraints="NO" id="NcS-OB-SpI">
+                                        <rect key="frame" x="113" y="0.0" width="56" height="75"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="hSn-xf-mHp" secondAttribute="bottom" constant="12" id="3kC-ai-zJ1"/>
+                                    <constraint firstAttribute="height" constant="75" id="55E-FX-Fp4"/>
+                                    <constraint firstItem="NcS-OB-SpI" firstAttribute="top" secondItem="IMb-UZ-Ndy" secondAttribute="top" id="816-xW-06f"/>
+                                    <constraint firstAttribute="trailing" secondItem="NcS-OB-SpI" secondAttribute="trailing" id="9aZ-3F-Qg5"/>
+                                    <constraint firstAttribute="bottom" secondItem="TJU-04-QE5" secondAttribute="bottom" constant="41" id="9g5-RI-M0I"/>
+                                    <constraint firstItem="NcS-OB-SpI" firstAttribute="leading" secondItem="hSn-xf-mHp" secondAttribute="trailing" constant="13" id="FuF-U0-v6F"/>
+                                    <constraint firstItem="TJU-04-QE5" firstAttribute="leading" secondItem="IMb-UZ-Ndy" secondAttribute="leading" constant="28" id="L35-X9-L7s"/>
+                                    <constraint firstItem="TJU-04-QE5" firstAttribute="top" secondItem="IMb-UZ-Ndy" secondAttribute="top" constant="13" id="LMg-jo-sCd"/>
+                                    <constraint firstAttribute="bottom" secondItem="NcS-OB-SpI" secondAttribute="bottom" id="ikx-xw-zVa"/>
+                                    <constraint firstItem="hSn-xf-mHp" firstAttribute="leading" secondItem="IMb-UZ-Ndy" secondAttribute="leading" constant="16" id="kXW-qy-X3t"/>
+                                    <constraint firstItem="hSn-xf-mHp" firstAttribute="top" secondItem="TJU-04-QE5" secondAttribute="bottom" constant="8" id="pQO-jQ-HZc"/>
+                                    <constraint firstAttribute="trailing" secondItem="TJU-04-QE5" secondAttribute="trailing" constant="84" id="qsc-US-0KJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="hSn-xf-mHp" secondAttribute="trailing" constant="69" id="yLV-ov-TGI"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tyx-E8-BLR" userLabel="leftView">
+                                <rect key="frame" x="0.0" y="5" width="150" height="150.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="M7o-nH-8nB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Aea-4X-dFN" firstAttribute="top" secondItem="IMb-UZ-Ndy" secondAttribute="bottom" constant="1" id="1e4-2B-T9x"/>
+                            <constraint firstAttribute="trailing" secondItem="Aea-4X-dFN" secondAttribute="trailing" constant="-1" id="AR6-FD-t4M"/>
+                            <constraint firstItem="IMb-UZ-Ndy" firstAttribute="leading" secondItem="tyx-E8-BLR" secondAttribute="trailing" constant="1" id="Bwb-zY-eTP"/>
+                            <constraint firstItem="tyx-E8-BLR" firstAttribute="leading" secondItem="vFA-a1-WgX" secondAttribute="leading" id="FSM-zk-tuY"/>
+                            <constraint firstItem="tyx-E8-BLR" firstAttribute="top" secondItem="vFA-a1-WgX" secondAttribute="top" constant="5" id="MdI-o7-fkc"/>
+                            <constraint firstAttribute="trailing" secondItem="IMb-UZ-Ndy" secondAttribute="trailing" id="Rj1-nj-rbi"/>
+                            <constraint firstItem="IMb-UZ-Ndy" firstAttribute="top" secondItem="vFA-a1-WgX" secondAttribute="top" constant="5" id="Roj-mM-6ho"/>
+                            <constraint firstAttribute="bottom" secondItem="tyx-E8-BLR" secondAttribute="bottom" constant="4" id="jti-3x-01G"/>
+                            <constraint firstItem="Aea-4X-dFN" firstAttribute="leading" secondItem="tyx-E8-BLR" secondAttribute="trailing" constant="1" id="kIx-C6-LmH"/>
+                            <constraint firstItem="Aea-4X-dFN" firstAttribute="height" secondItem="IMb-UZ-Ndy" secondAttribute="height" id="mbn-Lq-d3V"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="vFA-a1-WgX" secondAttribute="bottom" id="2jL-zX-sqc"/>
+                    <constraint firstItem="vFA-a1-WgX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="8ed-rF-MRh"/>
+                    <constraint firstItem="vFA-a1-WgX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="bRt-dz-31K"/>
+                    <constraint firstAttribute="trailing" secondItem="vFA-a1-WgX" secondAttribute="trailing" id="xBX-ki-Sfh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="downimageview" destination="6hR-Fh-jFR" id="8bl-Xk-ACF"/>
+                <outlet property="downonelable" destination="H4i-RN-kfZ" id="X5u-cz-opB"/>
+                <outlet property="rightdownview" destination="Aea-4X-dFN" id="RYT-Ir-vAE"/>
+                <outlet property="rightupview" destination="IMb-UZ-Ndy" id="5PV-Ey-Luc"/>
+                <outlet property="toponelabel" destination="TJU-04-QE5" id="iWS-oO-c0k"/>
+                <outlet property="upimageview" destination="NcS-OB-SpI" id="1bR-da-Hhr"/>
+            </connections>
+            <point key="canvasLocation" x="339" y="181"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="heradimage.png" width="54" height="54"/>
+    </resources>
+</document>
